@@ -1,0 +1,43 @@
+
+:root{
+  --as-mint:#CFEFD4;
+  --as-blue-light:#DCEAF8;
+  --as-blue-verylight:#EEF5FF;
+  --as-navy:#0B2C5F;
+  --as-white:#FFFFFF;
+  --as-border:#E6E6E6;
+}
+
+.site-logo{height:96px}
+@media (max-width:600px){ .site-logo{height:80px} }
+.site-header{background:var(--as-mint); border-bottom:1px solid var(--as-border)}
+.card{background:#fff; border:1px solid var(--as-border); border-radius:6px; padding:.4rem .4rem .8rem; box-shadow:0 1px 0 rgba(10,10,10,.03); margin-bottom:12px}
+.card>h2{background:var(--as-blue-light); padding:.5rem .6rem; margin:0 0 .4rem 0; border-radius:4px; border:1px solid var(--as-border); font-size:1.05rem}
+.inputs{display:flex; gap:.5rem; flex-wrap:wrap; align-items:end; margin-bottom:.6rem}
+.inputs label{display:flex; flex-direction:column; font-size:.95rem}
+.inputs input,.inputs select,.inputs button{padding:.45rem .5rem; border:1px solid var(--as-border); border-radius:4px}
+.inputs button{cursor:pointer}
+
+table{border-collapse:separate; border-spacing:0; width:100%}
+table thead th{background:var(--as-navy); color:#fff; padding:.55rem .5rem; position:sticky; top:0}
+table tbody td{padding:.5rem .5rem; border-bottom:1px solid #dde3ee}
+table tbody tr:nth-child(even){background:#f9fbff}
+table tbody tr:hover{background:var(--as-blue-verylight)}
+
+/* Explicit column coloring */
+#best tbody td:nth-child(1){ background:#f5fff8 }
+#best tbody td:nth-child(2){ background:var(--as-blue-light) }
+#best tbody td:nth-child(3),
+#best tbody td:nth-child(4),
+#best tbody td:nth-child(5){ background:#f6f9fe; font-variant-numeric:tabular-nums }
+
+#list tbody td:nth-child(1){ background:#f6f9fe; font-variant-numeric:tabular-nums }
+#list tbody td:nth-child(2){ background:#ffffff }
+#list tbody td:nth-child(3),
+#list tbody td:nth-child(4){ background:var(--as-blue-verylight); font-variant-numeric:tabular-nums }
+
+/* Neon green highlight for "you" row */
+#list tbody tr.you td {
+  background: #39FF14 !important;  /* neon green */
+  font-weight: 600;
+}
