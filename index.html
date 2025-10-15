@@ -11,7 +11,25 @@
     .header-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 0}
     .site-title{margin:.2em 0;font-size:1.6rem}
     .site-logo{height:64px;width:auto;flex:0 0 auto}
-    @media (max-width:600px){.header-inner{flex-direction:column;align-items:flex-start}.site-logo{height:56px}}
+    @media (max-width:600px){
+      .header-inner{flex-direction:column;align-items:flex-start}
+      .site-logo{height:56px}
+    }
+
+    /* disclaimer styling */
+    .disclaimer {
+      display: block;
+      font-size: 0.75rem;
+      line-height: 1.2;
+      color: #666;
+      margin-top: 2px;
+      max-width: 280px;
+    }
+    @media (max-width: 600px) {
+      .disclaimer {
+        text-wrap: balance;
+      }
+    }
   </style>
 </head>
 <body>
@@ -24,12 +42,21 @@
       <label>Seniority #
         <input type="number" id="sn" min="1" step="1" />
       </label>
+
       <label>Base
         <select id="base"></select>
+        <small class="disclaimer">
+          This tool uses the entire seniority list, including management pilots and pilots on leave, so results may differ from Position Bid BPLs.
+        </small>
       </label>
+
       <label>Seat
         <select id="seat"></select>
+        <small class="disclaimer">
+          This tool uses the entire seniority list, including management pilots and pilots on leave, so results may differ from Position Bid BPLs.
+        </small>
       </label>
+
       <button id="calc">Calculate</button>
       <button id="compare">Compare All</button>
     </div>
@@ -54,6 +81,7 @@
       </table>
     </section>
   </main>
+
 <script>
   document.getElementById('calc').addEventListener('click', () => {
     // Remove old highlights if they exist
@@ -62,7 +90,6 @@
     });
 
     // Target the row for "Your Hypothetical"
-    // If your JS creates this row dynamically, make sure it has an ID or data attribute
     const hypoRow = document.querySelector('#list tbody tr[data-you="true"]') 
                   || document.getElementById('hypothetical-row');
 
@@ -71,6 +98,6 @@
     }
   });
 </script>
-  <script src="script-v5.js?v=6"></script>
+<script src="script-v5.js?v=6"></script>
 </body>
 </html>
