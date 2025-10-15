@@ -9,6 +9,7 @@
   --text-gray: #5f6c77;
   --accent-yellow: #FFD43B;
   --border-gray: #D0D6DB;
+  --neon-green: #39FF14;
 }
 
 /* =========================
@@ -115,6 +116,30 @@ table tr:nth-child(even) {
 
 table tr:nth-child(odd) {
   background-color: #FFFFFF;
+}
+
+/* =========================
+   Highlight Hypothetical Row
+   ========================= */
+.highlight-hypo {
+  background-color: var(--neon-green) !important;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.highlight-hypo td {
+  border-top: 2px solid #00c400;
+  border-bottom: 2px solid #00c400;
+}
+
+@keyframes flash {
+  0% { background-color: #ffffff; }
+  50% { background-color: var(--neon-green); }
+  100% { background-color: var(--neon-green); }
+}
+
+.highlight-hypo {
+  animation: flash 0.6s ease-in-out;
 }
 
 /* =========================
