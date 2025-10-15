@@ -54,7 +54,23 @@
       </table>
     </section>
   </main>
+<script>
+  document.getElementById('calc').addEventListener('click', () => {
+    // Remove old highlights if they exist
+    document.querySelectorAll('#list tbody tr').forEach(row => {
+      row.classList.remove('highlight-hypo');
+    });
 
+    // Target the row for "Your Hypothetical"
+    // If your JS creates this row dynamically, make sure it has an ID or data attribute
+    const hypoRow = document.querySelector('#list tbody tr[data-you="true"]') 
+                  || document.getElementById('hypothetical-row');
+
+    if (hypoRow) {
+      hypoRow.classList.add('highlight-hypo');
+    }
+  });
+</script>
   <script src="script-v5.js?v=6"></script>
 </body>
 </html>
