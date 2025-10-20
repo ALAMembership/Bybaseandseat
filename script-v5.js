@@ -1,4 +1,4 @@
-console.info('Pilot What-If: script-v5 loaded with highlight fix');
+console.info('Pilot What-If: script-v5 (names hidden, emoji mode)');
 
 let INDEX = null;
 
@@ -150,7 +150,7 @@ function renderList(base, seat, pilots, sn) {
     const tr = document.createElement('tr');
     tr.className = 'you';
     tr.innerHTML = `<td class="c-snr">${sn}</td>
-                    <td class="c-name">(you — hypothetical)</td>
+                    <td class="c-name">✈️</td>
                     <td class="c-rank">1</td>
                     <td class="c-total">1</td>`;
     tb.appendChild(tr);
@@ -168,11 +168,10 @@ function renderList(base, seat, pilots, sn) {
       const p = sorted[i];
       const tr = document.createElement('tr');
       tr.className = i === eqIndex ? 'you' : '';
-tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
-                <td class="c-name">—</td>
-                <td class="c-rank">${i + 1 + (i >= insertAt ? 1 : 0)}</td>
-                <td class="c-total">${total + 1}</td>`;
-
+      tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
+                      <td class="c-name">✈️</td>
+                      <td class="c-rank">${i + 1}</td>
+                      <td class="c-total">${total}</td>`;
       tb.appendChild(tr);
     }
     const youRow = tb.querySelector('tr.you');
@@ -189,7 +188,7 @@ tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
       const tr = document.createElement('tr');
       tr.className = 'you';
       tr.innerHTML = `<td class="c-snr">${sn}</td>
-                      <td class="c-name">(you — hypothetical)</td>
+                      <td class="c-name">✈️ (you — hypothetical)</td>
                       <td class="c-rank">${i + 1}</td>
                       <td class="c-total">${total + 1}</td>`;
       tb.appendChild(tr);
@@ -197,7 +196,7 @@ tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
     const p = sorted[i];
     const tr = document.createElement('tr');
     tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
-                    <td class="c-name">${p.name ?? ''}</td>
+                    <td class="c-name">✈️</td>
                     <td class="c-rank">${i + 1 + (i >= insertAt ? 1 : 0)}</td>
                     <td class="c-total">${total + 1}</td>`;
     tb.appendChild(tr);
@@ -206,7 +205,7 @@ tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
     const tr = document.createElement('tr');
     tr.className = 'you';
     tr.innerHTML = `<td class="c-snr">${sn}</td>
-                    <td class="c-name">(you — hypothetical)</td>
+                    <td class="c-name">✈️ (you — hypothetical)</td>
                     <td class="c-rank">${total + 1}</td>
                     <td class="c-total">${total + 1}</td>`;
     tb.appendChild(tr);
