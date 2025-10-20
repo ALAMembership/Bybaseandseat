@@ -168,10 +168,11 @@ function renderList(base, seat, pilots, sn) {
       const p = sorted[i];
       const tr = document.createElement('tr');
       tr.className = i === eqIndex ? 'you' : '';
-      tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
-                      <td class="c-name">${p.name ?? ''}</td>
-                      <td class="c-rank">${i + 1}</td>
-                      <td class="c-total">${total}</td>`;
+tr.innerHTML = `<td class="c-snr">${p.seniority ?? ''}</td>
+                <td class="c-name">—</td>
+                <td class="c-rank">${i + 1 + (i >= insertAt ? 1 : 0)}</td>
+                <td class="c-total">${total + 1}</td>`;
+
       tb.appendChild(tr);
     }
     const youRow = tb.querySelector('tr.you');
