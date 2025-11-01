@@ -1,189 +1,901 @@
 {
   "base": "SFO",
   "seat": "FO",
-  "as_of": "2025-11-01",
-  "count": 178,
-  "seniority_numbers": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31,
-    32,
-    33,
-    34,
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41,
-    42,
-    43,
-    44,
-    45,
-    46,
-    47,
-    48,
-    49,
-    50,
-    51,
-    52,
-    53,
-    54,
-    55,
-    56,
-    57,
-    58,
-    59,
-    60,
-    61,
-    62,
-    63,
-    64,
-    65,
-    66,
-    67,
-    68,
-    69,
-    70,
-    71,
-    72,
-    73,
-    74,
-    75,
-    76,
-    77,
-    78,
-    79,
-    80,
-    81,
-    82,
-    83,
-    84,
-    85,
-    86,
-    87,
-    88,
-    89,
-    90,
-    91,
-    92,
-    93,
-    94,
-    95,
-    96,
-    97,
-    98,
-    99,
-    100,
-    101,
-    102,
-    103,
-    104,
-    105,
-    106,
-    107,
-    108,
-    109,
-    110,
-    111,
-    112,
-    113,
-    114,
-    115,
-    116,
-    117,
-    118,
-    119,
-    120,
-    121,
-    122,
-    123,
-    124,
-    125,
-    126,
-    127,
-    128,
-    129,
-    130,
-    131,
-    132,
-    133,
-    134,
-    135,
-    136,
-    137,
-    138,
-    139,
-    140,
-    141,
-    142,
-    143,
-    144,
-    145,
-    146,
-    147,
-    148,
-    149,
-    150,
-    151,
-    152,
-    153,
-    154,
-    155,
-    156,
-    157,
-    158,
-    159,
-    160,
-    161,
-    162,
-    163,
-    164,
-    165,
-    166,
-    167,
-    168,
-    169,
-    170,
-    171,
-    172,
-    173,
-    174,
-    175,
-    176,
-    177,
-    178,
-    179
-  ],
-  "metadata": {
-    "generated_from": "SFO FO - SFO FO.csv"
-  }
+  "pilots": [
+    {
+      "seniority": 805,
+      "name": "Ryan Sieler",
+      "rank": 1
+    },
+    {
+      "seniority": 1088,
+      "name": "Claudia Smith",
+      "rank": 2
+    },
+    {
+      "seniority": 1101,
+      "name": "Molly Atkinson",
+      "rank": 3
+    },
+    {
+      "seniority": 1123,
+      "name": "Michael Herriott",
+      "rank": 4
+    },
+    {
+      "seniority": 1235,
+      "name": "Alexander Cummings",
+      "rank": 5
+    },
+    {
+      "seniority": 1453,
+      "name": "Dean Hudson",
+      "rank": 6
+    },
+    {
+      "seniority": 1473,
+      "name": "Stefano Pensa",
+      "rank": 7
+    },
+    {
+      "seniority": 1740,
+      "name": "Michael Ketcherside",
+      "rank": 8
+    },
+    {
+      "seniority": 1742,
+      "name": "Michael Friedman",
+      "rank": 9
+    },
+    {
+      "seniority": 1903,
+      "name": "Arthur Bogie",
+      "rank": 10
+    },
+    {
+      "seniority": 1918,
+      "name": "Wesley A. Gregory",
+      "rank": 11
+    },
+    {
+      "seniority": 1958,
+      "name": "Christopher Eckerle",
+      "rank": 12
+    },
+    {
+      "seniority": 2020,
+      "name": "Sharbel Haddad",
+      "rank": 13
+    },
+    {
+      "seniority": 2035,
+      "name": "Tyler Hinshaw",
+      "rank": 14
+    },
+    {
+      "seniority": 2053,
+      "name": "Chad Memmel",
+      "rank": 15
+    },
+    {
+      "seniority": 2136,
+      "name": "Cody Hamilton",
+      "rank": 16
+    },
+    {
+      "seniority": 2207,
+      "name": "Frank Parsons",
+      "rank": 17
+    },
+    {
+      "seniority": 2294,
+      "name": "Brian A. Nuss",
+      "rank": 18
+    },
+    {
+      "seniority": 2342,
+      "name": "Jennifer L. Gosar",
+      "rank": 19
+    },
+    {
+      "seniority": 2345,
+      "name": "Scott A. Lauchland",
+      "rank": 20
+    },
+    {
+      "seniority": 2362,
+      "name": "Fredrick F. Scott",
+      "rank": 21
+    },
+    {
+      "seniority": 2384,
+      "name": "Jeffrey D. Van Orsow",
+      "rank": 22
+    },
+    {
+      "seniority": 2390,
+      "name": "Shachar Gilad",
+      "rank": 23
+    },
+    {
+      "seniority": 2406,
+      "name": "Eric C. Hayden",
+      "rank": 24
+    },
+    {
+      "seniority": 2435,
+      "name": "Curtis S. Haney",
+      "rank": 25
+    },
+    {
+      "seniority": 2445,
+      "name": "Christopher M. Mohan",
+      "rank": 26
+    },
+    {
+      "seniority": 2447,
+      "name": "Tyler B. Crowther",
+      "rank": 27
+    },
+    {
+      "seniority": 2459,
+      "name": "Patrick N. Erickson",
+      "rank": 28
+    },
+    {
+      "seniority": 2460,
+      "name": "Jeffrey F. Saunders",
+      "rank": 29
+    },
+    {
+      "seniority": 2472,
+      "name": "Arthur H. Richardson",
+      "rank": 30
+    },
+    {
+      "seniority": 2474,
+      "name": "Eric B. Ellison",
+      "rank": 31
+    },
+    {
+      "seniority": 2478,
+      "name": "Heath E. Papiernik",
+      "rank": 32
+    },
+    {
+      "seniority": 2496,
+      "name": "Daniel J. Sokolow",
+      "rank": 33
+    },
+    {
+      "seniority": 2532,
+      "name": "Mark W. Valentine",
+      "rank": 34
+    },
+    {
+      "seniority": 2556,
+      "name": "Dustin N. Berube",
+      "rank": 35
+    },
+    {
+      "seniority": 2570,
+      "name": "Scott R. Procker",
+      "rank": 36
+    },
+    {
+      "seniority": 2584,
+      "name": "Jared D. Zwanziger",
+      "rank": 37
+    },
+    {
+      "seniority": 2593,
+      "name": "Joshua Gust",
+      "rank": 38
+    },
+    {
+      "seniority": 2612,
+      "name": "David A. Schams",
+      "rank": 39
+    },
+    {
+      "seniority": 2616,
+      "name": "Tory D. Listberger",
+      "rank": 40
+    },
+    {
+      "seniority": 2649,
+      "name": "David A. Lewis",
+      "rank": 41
+    },
+    {
+      "seniority": 2651,
+      "name": "Christopher R. Green",
+      "rank": 42
+    },
+    {
+      "seniority": 2659,
+      "name": "Juanito P. Manera",
+      "rank": 43
+    },
+    {
+      "seniority": 2662,
+      "name": "Meagan Wood",
+      "rank": 44
+    },
+    {
+      "seniority": 2670,
+      "name": "Corbin M. Malacrea",
+      "rank": 45
+    },
+    {
+      "seniority": 2671,
+      "name": "Elizabeth J. Donovan",
+      "rank": 46
+    },
+    {
+      "seniority": 2710,
+      "name": "Dustin S. Rasmussen",
+      "rank": 47
+    },
+    {
+      "seniority": 2719,
+      "name": "Frank J. Siri, III",
+      "rank": 48
+    },
+    {
+      "seniority": 2727,
+      "name": "Brent N. Russell",
+      "rank": 49
+    },
+    {
+      "seniority": 2735,
+      "name": "Marcus R. Moloney",
+      "rank": 50
+    },
+    {
+      "seniority": 2751,
+      "name": "Joan F. Puim",
+      "rank": 51
+    },
+    {
+      "seniority": 2777,
+      "name": "Timothy J. Cochran",
+      "rank": 52
+    },
+    {
+      "seniority": 2782,
+      "name": "Steven L. Bastuba",
+      "rank": 53
+    },
+    {
+      "seniority": 2787,
+      "name": "Jay H. Kwon",
+      "rank": 54
+    },
+    {
+      "seniority": 2808,
+      "name": "Jessenia A. Moncayo",
+      "rank": 55
+    },
+    {
+      "seniority": 2809,
+      "name": "Daniel A. Garcia",
+      "rank": 56
+    },
+    {
+      "seniority": 2860,
+      "name": "Adam A. Shaw",
+      "rank": 57
+    },
+    {
+      "seniority": 2871,
+      "name": "Grant S. Heir",
+      "rank": 58
+    },
+    {
+      "seniority": 2884,
+      "name": "Mohsen Gholampour",
+      "rank": 59
+    },
+    {
+      "seniority": 2893,
+      "name": "Harinder PS Grewal",
+      "rank": 60
+    },
+    {
+      "seniority": 2894,
+      "name": "Bryce J. LeBaron",
+      "rank": 61
+    },
+    {
+      "seniority": 2896,
+      "name": "Riley D. Johns",
+      "rank": 62
+    },
+    {
+      "seniority": 2899,
+      "name": "Thomas D. Pruett",
+      "rank": 63
+    },
+    {
+      "seniority": 2900,
+      "name": "Shaun A. Rix",
+      "rank": 64
+    },
+    {
+      "seniority": 2905,
+      "name": "Jesus P. Cano",
+      "rank": 65
+    },
+    {
+      "seniority": 2943,
+      "name": "William L. Poppler",
+      "rank": 66
+    },
+    {
+      "seniority": 2951,
+      "name": "Jay Vee C. Vicencio",
+      "rank": 67
+    },
+    {
+      "seniority": 2972,
+      "name": "Riley J. Davidson",
+      "rank": 68
+    },
+    {
+      "seniority": 2981,
+      "name": "Ian M. Overbey",
+      "rank": 69
+    },
+    {
+      "seniority": 2986,
+      "name": "Marvin Escalante",
+      "rank": 70
+    },
+    {
+      "seniority": 2992,
+      "name": "Michael T. Barrong",
+      "rank": 71
+    },
+    {
+      "seniority": 2996,
+      "name": "Joseph O. Sanchez",
+      "rank": 72
+    },
+    {
+      "seniority": 3021,
+      "name": "Jason M. Cochran",
+      "rank": 73
+    },
+    {
+      "seniority": 3027,
+      "name": "Kyle J. Aguillard",
+      "rank": 74
+    },
+    {
+      "seniority": 3034,
+      "name": "Terry S. Hall",
+      "rank": 75
+    },
+    {
+      "seniority": 3043,
+      "name": "Hayden L. Maurice",
+      "rank": 76
+    },
+    {
+      "seniority": 3045,
+      "name": "Elliot J. Petersen",
+      "rank": 77
+    },
+    {
+      "seniority": 3047,
+      "name": "Steven S. Bunch, Jr.",
+      "rank": 78
+    },
+    {
+      "seniority": 3048,
+      "name": "Ryan C. Billing",
+      "rank": 79
+    },
+    {
+      "seniority": 3052,
+      "name": "Joshua E. McDonald",
+      "rank": 80
+    },
+    {
+      "seniority": 3064,
+      "name": "Robert D. Belme",
+      "rank": 81
+    },
+    {
+      "seniority": 3092,
+      "name": "John M. Drozdowski, Jr.",
+      "rank": 82
+    },
+    {
+      "seniority": 3093,
+      "name": "Joshua W. Morris",
+      "rank": 83
+    },
+    {
+      "seniority": 3113,
+      "name": "Michael S. Landers",
+      "rank": 84
+    },
+    {
+      "seniority": 3114,
+      "name": "Adam Brooks",
+      "rank": 85
+    },
+    {
+      "seniority": 3126,
+      "name": "Justin JD Perkins",
+      "rank": 86
+    },
+    {
+      "seniority": 3130,
+      "name": "Russell G. Becraft",
+      "rank": 87
+    },
+    {
+      "seniority": 3131,
+      "name": "Nicholas J. Wilkerson",
+      "rank": 88
+    },
+    {
+      "seniority": 3134,
+      "name": "Devin Western",
+      "rank": 89
+    },
+    {
+      "seniority": 3137,
+      "name": "Nicolas G. White",
+      "rank": 90
+    },
+    {
+      "seniority": 3147,
+      "name": "Holly M. Adamson",
+      "rank": 91
+    },
+    {
+      "seniority": 3155,
+      "name": "Mark B. Dunham",
+      "rank": 92
+    },
+    {
+      "seniority": 3161,
+      "name": "Evan J. Hertel",
+      "rank": 93
+    },
+    {
+      "seniority": 3163,
+      "name": "Dustin C. Watkins",
+      "rank": 94
+    },
+    {
+      "seniority": 3164,
+      "name": "Jesse D. Brother",
+      "rank": 95
+    },
+    {
+      "seniority": 3165,
+      "name": "Christopher T. Whitaker",
+      "rank": 96
+    },
+    {
+      "seniority": 3166,
+      "name": "Cody M. Clark",
+      "rank": 97
+    },
+    {
+      "seniority": 3169,
+      "name": "Richard J. Stephens",
+      "rank": 98
+    },
+    {
+      "seniority": 3171,
+      "name": "Robert W. Monfore",
+      "rank": 99
+    },
+    {
+      "seniority": 3173,
+      "name": "Adam D. DimmItt",
+      "rank": 100
+    },
+    {
+      "seniority": 3174,
+      "name": "Satinderpal Singh",
+      "rank": 101
+    },
+    {
+      "seniority": 3190,
+      "name": "Joseph M. Lancheros",
+      "rank": 102
+    },
+    {
+      "seniority": 3196,
+      "name": "Meredith Datena",
+      "rank": 103
+    },
+    {
+      "seniority": 3197,
+      "name": "Jeffrey P. Berreman",
+      "rank": 104
+    },
+    {
+      "seniority": 3199,
+      "name": "James P. Gregory",
+      "rank": 105
+    },
+    {
+      "seniority": 3202,
+      "name": "Alexandre C. Lucero",
+      "rank": 106
+    },
+    {
+      "seniority": 3203,
+      "name": "John j. Warden",
+      "rank": 107
+    },
+    {
+      "seniority": 3204,
+      "name": "Rupali Waghmare",
+      "rank": 108
+    },
+    {
+      "seniority": 3206,
+      "name": "Johvan M. Scheurer",
+      "rank": 109
+    },
+    {
+      "seniority": 3210,
+      "name": "Elliott Ericson",
+      "rank": 110
+    },
+    {
+      "seniority": 3213,
+      "name": "Jared D. Runyon",
+      "rank": 111
+    },
+    {
+      "seniority": 3215,
+      "name": "Stefan T. Brems",
+      "rank": 112
+    },
+    {
+      "seniority": 3219,
+      "name": "Joseph R. Lazzaro",
+      "rank": 113
+    },
+    {
+      "seniority": 3221,
+      "name": "James C. Simmons",
+      "rank": 114
+    },
+    {
+      "seniority": 3225,
+      "name": "John D. Milliard",
+      "rank": 115
+    },
+    {
+      "seniority": 3229,
+      "name": "Erik H. Buckmiller",
+      "rank": 116
+    },
+    {
+      "seniority": 3230,
+      "name": "Sterling L. Ambrose",
+      "rank": 117
+    },
+    {
+      "seniority": 3231,
+      "name": "Samuel W. Oas",
+      "rank": 118
+    },
+    {
+      "seniority": 3237,
+      "name": "Luke D. Pearson",
+      "rank": 119
+    },
+    {
+      "seniority": 3238,
+      "name": "Bradley D. Darling",
+      "rank": 120
+    },
+    {
+      "seniority": 3241,
+      "name": "Joshua A. Smith",
+      "rank": 121
+    },
+    {
+      "seniority": 3243,
+      "name": "Michael J. Gudmunson",
+      "rank": 122
+    },
+    {
+      "seniority": 3245,
+      "name": "Timothy K. Kochert",
+      "rank": 123
+    },
+    {
+      "seniority": 3246,
+      "name": "Riya B. Patel",
+      "rank": 124
+    },
+    {
+      "seniority": 3248,
+      "name": "Jonathan H. Nguyen",
+      "rank": 125
+    },
+    {
+      "seniority": 3249,
+      "name": "Dana Atkins",
+      "rank": 126
+    },
+    {
+      "seniority": 3251,
+      "name": "Jacob K. Weber",
+      "rank": 127
+    },
+    {
+      "seniority": 3254,
+      "name": "Jordan T. Vessels",
+      "rank": 128
+    },
+    {
+      "seniority": 3255,
+      "name": "David L. Blessinger",
+      "rank": 129
+    },
+    {
+      "seniority": 3256,
+      "name": "Liam R. Kennedy",
+      "rank": 130
+    },
+    {
+      "seniority": 3257,
+      "name": "Kyle G. Foreman",
+      "rank": 131
+    },
+    {
+      "seniority": 3259,
+      "name": "Joshua C. Lester",
+      "rank": 132
+    },
+    {
+      "seniority": 3262,
+      "name": "Raymond A. White",
+      "rank": 133
+    },
+    {
+      "seniority": 3271,
+      "name": "Natalie A. Hall",
+      "rank": 134
+    },
+    {
+      "seniority": 3273,
+      "name": "Samuel B. Dunwoody",
+      "rank": 135
+    },
+    {
+      "seniority": 3274,
+      "name": "Britt D. Christiansen",
+      "rank": 136
+    },
+    {
+      "seniority": 3276,
+      "name": "Christian J. Walker",
+      "rank": 137
+    },
+    {
+      "seniority": 3277,
+      "name": "David R. Mathis",
+      "rank": 138
+    },
+    {
+      "seniority": 3281,
+      "name": "Michael E. Reveles",
+      "rank": 139
+    },
+    {
+      "seniority": 3284,
+      "name": "Cory W. Peters",
+      "rank": 140
+    },
+    {
+      "seniority": 3286,
+      "name": "Frank Rouse, III",
+      "rank": 141
+    },
+    {
+      "seniority": 3290,
+      "name": "Tyler K. Studeman",
+      "rank": 142
+    },
+    {
+      "seniority": 3291,
+      "name": "Ryan S. Walton",
+      "rank": 143
+    },
+    {
+      "seniority": 3293,
+      "name": "Daniel M. Pojoga",
+      "rank": 144
+    },
+    {
+      "seniority": 3296,
+      "name": "Emma L. Fox",
+      "rank": 145
+    },
+    {
+      "seniority": 3301,
+      "name": "Roger S. Braun",
+      "rank": 146
+    },
+    {
+      "seniority": 3302,
+      "name": "Douglas A. Besselman",
+      "rank": 147
+    },
+    {
+      "seniority": 3303,
+      "name": "Jason K. Murray",
+      "rank": 148
+    },
+    {
+      "seniority": 3307,
+      "name": "Michael Joyce",
+      "rank": 149
+    },
+    {
+      "seniority": 3311,
+      "name": "Alex D. Hedman",
+      "rank": 150
+    },
+    {
+      "seniority": 3312,
+      "name": "Jennifer W. Johnson",
+      "rank": 151
+    },
+    {
+      "seniority": 3313,
+      "name": "Michael j. Olah",
+      "rank": 152
+    },
+    {
+      "seniority": 3317,
+      "name": "Maxwell H. Riemer",
+      "rank": 153
+    },
+    {
+      "seniority": 3319,
+      "name": "Riley J. Bache",
+      "rank": 154
+    },
+    {
+      "seniority": 3322,
+      "name": "Faith R. Hatfield",
+      "rank": 155
+    },
+    {
+      "seniority": 3323,
+      "name": "Glenn W. Sears",
+      "rank": 156
+    },
+    {
+      "seniority": 3326,
+      "name": "Nicholas E. Burns",
+      "rank": 157
+    },
+    {
+      "seniority": 3329,
+      "name": "Brycen A. Lechner",
+      "rank": 158
+    },
+    {
+      "seniority": 3330,
+      "name": "Larisa R. Caileanu",
+      "rank": 159
+    },
+    {
+      "seniority": 3333,
+      "name": "Isaac HW Hatfield",
+      "rank": 160
+    },
+    {
+      "seniority": 3338,
+      "name": "Marc R. Krueger",
+      "rank": 161
+    },
+    {
+      "seniority": 3344,
+      "name": "Cody J. Newell",
+      "rank": 162
+    },
+    {
+      "seniority": 3345,
+      "name": "Anthony F. Parsons",
+      "rank": 163
+    },
+    {
+      "seniority": 3346,
+      "name": "Matthew C. Clark",
+      "rank": 164
+    },
+    {
+      "seniority": 3347,
+      "name": "David M. Wills",
+      "rank": 165
+    },
+    {
+      "seniority": 3348,
+      "name": "Patrick C. Wright",
+      "rank": 166
+    },
+    {
+      "seniority": 3350,
+      "name": "Anthony M. Compton",
+      "rank": 167
+    },
+    {
+      "seniority": 3354,
+      "name": "Jae S. Park",
+      "rank": 168
+    },
+    {
+      "seniority": 3356,
+      "name": "Joshua L. Cornelius",
+      "rank": 169
+    },
+    {
+      "seniority": 3357,
+      "name": "Yoandris Aguilar",
+      "rank": 170
+    },
+    {
+      "seniority": 3362,
+      "name": "Charles Hubbard",
+      "rank": 171
+    },
+    {
+      "seniority": 3363,
+      "name": "Richard D. Carter",
+      "rank": 172
+    },
+    {
+      "seniority": 3364,
+      "name": "William F. Montgomery",
+      "rank": 173
+    },
+    {
+      "seniority": 3365,
+      "name": "Nikita  Clark",
+      "rank": 174
+    },
+    {
+      "seniority": 3366,
+      "name": "Robert Shunk",
+      "rank": 175
+    },
+    {
+      "seniority": 3367,
+      "name": "Nicholas  Biron",
+      "rank": 176
+    },
+    {
+      "seniority": 3368,
+      "name": "Kasey Richardson",
+      "rank": 177
+    },
+    {
+      "seniority": 3369,
+      "name": "Samuel Matthews",
+      "rank": 178
+    },
+    {
+      "seniority": 3370,
+      "name": "James  B. Wunder",
+      "rank": 179
+    }
+  ]
 }
